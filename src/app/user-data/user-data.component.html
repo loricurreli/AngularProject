@@ -1,0 +1,5 @@
+<div class="container">
+    <input [(ngModel)]="username" (input)="handleInput($event)"/>
+    <p>Your username is: {{username}}</p>
+    <button [disabled]="!activeButton" (click)="handleChange()">Reset</button>
+</div>

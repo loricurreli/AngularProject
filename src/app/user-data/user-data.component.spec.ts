@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SuccessMessageComponent } from './success-message.component';
+import { UserDataComponent } from './user-data.component';
 
-describe('SuccessMessageComponent', () => {
-  let component: SuccessMessageComponent;
-  let fixture: ComponentFixture<SuccessMessageComponent>;
+describe('UserDataComponent', () => {
+  let component: UserDataComponent;
+  let fixture: ComponentFixture<UserDataComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SuccessMessageComponent ]
+      declarations: [ UserDataComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SuccessMessageComponent);
+    fixture = TestBed.createComponent(UserDataComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
